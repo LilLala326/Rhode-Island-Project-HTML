@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhode Island | Maps</title>
+
+    <link rel="stylesheet" href="assets/style/fonts.css">
+    <link rel="stylesheet" href="assets/style/base.css">
+    <link rel="stylesheet" href="assets/style/layout.css">
+
+    <script src="assets/js/validation.js" defer></script>
+    <script src="assets/js/hamburgerMenu.js" defer></script>
+    <script src="assets/js/javaStyling.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <span id="top"></span>
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" onmouseover="black(this)" onmouseout="yellow(this)">Homepage</a>
+
+            <ul class="nav-menu">
+
+                <li> <a href="aboutRhodeIsland.html" onmouseover="black(this)" onmouseout="yellow(this)">About Rhode Island</a></li>
+
+                <li class="dropdown" onmouseover="blockHover(this)">
+                    <a href="providence.html" class="dropbtn" onmouseover="black(this)" onmouseout="yellow(this)">Providence &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="providenceThingsToDo.html" onmouseover="black(this)" onmouseout="blue(this)">Things To Do</a>
+                    </div>
+                </li>
+
+                <li class="dropdown" onmouseover="blockHover(this)">
+                    <a href="cranston.html" class="dropbtn" onmouseover="black(this)" onmouseout="yellow(this)">Cranston &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="cranstonThingsToDo.html" onmouseover="black(this)" onmouseout="blue(this)">Things To Do</a>
+                    </div>
+                </li>
+
+                <li class="dropdown" onmouseover="blockHover(this)">
+                    <a href="warwick.html" class="dropbtn" onmouseover="black(this)" onmouseout="yellow(this)">Warwick &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="warwickThingsToDo.html" onmouseover="black(this)" onmouseout="blue(this)">Things To Do</a>
+                    </div>
+                </li>
+
+                <li> <a href="maps.html" onmouseover="black(this)" onmouseout="yellow(this)">Maps</a> </li>
+
+                <li> <a href="gallery.html" onmouseover="black(this)" onmouseout="yellow(this)">Gallery</a> </li>
+                
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main class="containerMaps">
+        <h1><span>Location and Maps</span></h1>
+
+        <h2><span>Rhode Island within the United States</span></h2>
+        <figure class="mapUSA">
+            <img src="assets/images/RhodeIsland-big.png" width="700" height="500" alt="Map of the USA with Rhode Island higlighted">
+            <figcaption>Created with <a href="https://www.mapchart.net/index.html" onmouseover="blueBgYellowTxt(this)" onmouseout="noStyle(this)">Map Chart</a> </figcaption>
+        </figure>
+
+        <h2><span>Rhode Island and Surrounding States</span></h2>
+        <figure class="mapRI">
+            <img src="assets/images/RhodeIsland-small.png" width="400" height="350" alt="Map of the USA with Rhode Island higlighted">
+            <figcaption>Created with <a href="https://www.mapchart.net/" onmouseover="blueBgYellowTxt(this)" onmouseout="noStyle(this)">Map Chart</a> [12]</figcaption>
+        </figure>
+
+        <h2><span>Mentioned Locations on Google Maps</span></h2>
+        <p><span>View all the cities and locations mentioned throughout the site in this Google Maps folder: </span><br> 
+        <a href="https://maps.app.goo.gl/M8AUJJonzN2Skget5" onmouseover="blueBgYellowTxt(this)" onmouseout="noStyle(this)">Little Rhody - Providence, Cranston, Warwick</a></p>
+
+    </main>
+
+    <footer class="footerHomepage">
+        &copy; 2025 Skyla Jeanmary. All rights reserved. <a href="references.html" onmouseover=black(this) onmouseout=yellow(this) id="references">References </a> <a href="#top" onmouseover=black(this) onmouseout=yellow(this) id="backToTop">Back To Top</a>
+    </footer>
+
+</body>
+
+</html>
